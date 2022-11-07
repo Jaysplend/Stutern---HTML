@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="wilih=device-wilih, initial-scale=1.0">
+  <title>Basic_Card</title>
+</head>
+
+<style>
+ 
+  .card {
+    border: 2px solid rgb(95, 86, 86);
+    border-radius: 12px;
+    width: 270px;
+    align-items: center;
+    /* text-align: center; */
+    padding: 12px;
+    padding-bottom: 140px;
+    display: block;
+    margin:auto;
+     }
+  .size {
+    font-size: 18px;
+    }
+    .free {
+        font-size: 60px;
+    }
+  .interface {
+    border-bottom: 1px dashed black;
+    }
+  .button {
+    border: 1px solid black;
+    border-radius: 90px;
+    padding: 20px;
+    width:100%;
+    background-color: white;
+    }
+    ul{
+        list-style-type: none;
+    }
+    ul li:before{
+        content:'\2713\0020';
+    }
+        
+</style>
+
+<body>
+  <div class="card">
+    <section>
+    <h3> Free </h3>
+    <p class="size">
+        For individuals or very small<br/>
+        teams just getting started<br/>
+        with Airtable
+    </p>
+    </section>
+
+    <br/>
+    <br/>
+
+    <div>
+    <h1 class="free">Free</h1>
+    <br/>
+    <button class="button hover"  type="submit" style="font-weight:300"> <b>Sign up </b></button>
+    <br/>
+    </div>
+
+    <div>
+    <div>
+    <p><b>Free includes:</b></p>
+    
+
+    <div style="margin:none;">
+    <ul><b>
+        <li> &nbsp;Unlimited bases</li>
+        <li> &nbsp;Up to creators or editors</li>
+        <li> &nbsp;Unlimited commenter & read-<br/>only users</li>
+        <li>&nbsp;<span class="interface">Interface Designer</span></li>
+        <li> &nbsp;1 <span class="interface">extension</span> per base</li>
+        <li> &nbsp;1 sync integration</li>
+        <li> &nbsp;1,200 records per base</li>
+        <li> &nbsp;2GB of attachments per base</li>
+    </ul></b>
+    </div>
+    </div>
+  </div>
+</body>
+</html>
