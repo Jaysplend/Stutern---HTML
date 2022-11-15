@@ -1,0 +1,32 @@
+.container{
+    padding:20px;
+    margin: 20px;
+    border-style:solid;
+    border-color: rgb(22, 16, 26);
+
+}
+h2{
+    font-size: 18px;
+}
+.container{
+    background-color: white;
+}
+.name{
+    font-size:14px ;
+    color:green;
+    width: auto;
+    border-bottom-style: dashed;
+    padding-bottom:20px ;
+} 
+.lessons{
+    font-size:14px ;
+    color:red;
+    border-bottom-style: dashed;
+    padding-bottom:20px ;
+    padding-top:20px ;
+}
+.difference{
+    color:blue;
+    font-size:14px ;
+
+}
