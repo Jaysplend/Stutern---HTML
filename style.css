@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(245, 248, 248);
+}
+div {
+    display:inline-block;
+}
+.container{
+    background-color: white;
+    align-self:center;
+}
+.card{
+    width:300px;
+    margin: 10px;
+    border-style:dashed;
+    border-radius: 20px; 
+}
+h3{
+ text-align: left;
+}
+ol > h3{
+    color:brown;
+
+}
+ul>h3{
+    color:blueviolet;
+}
+.card > #likes{
+    background-color: blanchedalmond;
+    padding-left: 50px;
+}
+.card > #dislike{
+    background-color: rgb(238, 235, 241);
+    padding-left: 50px;
+}
+.Dislike{
+list-style-type: upper-roman;
+}
